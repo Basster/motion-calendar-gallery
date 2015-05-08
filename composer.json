@@ -1,0 +1,28 @@
+{
+  "name": "basster/motion_gallery",
+  "require": {
+    "php": "~5.4",
+    "silex/silex": "^1.2",
+    "twig/twig": "^1.18",
+    "symfony/twig-bridge": "^2.6",
+    "symfony/finder": "^2.6",
+    "symfony/yaml": "^2.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ole Rößner",
+      "email": "oroessner@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Basster\\MotionGallery\\": "api/src",
+      "Basster\\MotionGallery\\Test\\": "api/test"
+    }
+  }
+}
